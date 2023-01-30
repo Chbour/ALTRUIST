@@ -1,0 +1,6 @@
+{"mongo_string" : "XXXX",
+"mongo_tlsCAFile" : "YYYY",
+"twitter_consumer_key" : "ZZZZ",
+"twitter_consumer_secret" : "AAAA",
+"twitter_access_token" : "BBBB",
+"twitter_token_secret" : "CCCC"}

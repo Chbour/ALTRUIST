@@ -1,0 +1,15 @@
+diabetes
+insulin
+#t1d
+t1d
+t2d
+#t2d
+fingerprick
+#dsma
+dsma
+gbdoc
+#gbdoc
+#insulin
+#diabetes
+diabetic
+#diabetic
