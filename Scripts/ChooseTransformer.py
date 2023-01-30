@@ -22,7 +22,7 @@ class TestModel(object):
     df = test.TryModels(df, ["model1", "model2"]), models can be found on https://huggingface.co/models?library=sentence-transformers
     """
 
-    def __init__(self, path_dict_keywords):
+    def __init__(self, path_dict_keywords="data/dict_concepts_keywords.txt"):
         self.keywords = json.load(open(path_dict_keywords))
     
     def TryModels(self, df, models): 
