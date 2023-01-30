@@ -4,9 +4,8 @@ import json
 
 class PrepareCox(object):
     """
-    It takes a list of user IDs, a MongoDB database, a CoxPHFitter object, and a path to a JSON file
-    containing the thresholds for the concepts of interest. It then returns a dataframe containing the
-    data needed to run a Cox regression
+    It takes a list of user IDs, a MongoDB database, a CoxPHFitter object as arguments.
+    It then uses the Cox style dataset created in the previous step and applies a Cox regression to it 
     """
 
     def __init__(self, db, list_ids, cph):
