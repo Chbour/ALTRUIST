@@ -1,6 +1,6 @@
 # ALTRUIST
 
-##About this package
+## About this package
 ALTRUIST stands for virtu**AL** digi**T**al coho**R**t st**U**dy on Tw**I**tter u**S**ing py**T**hon. It is a Python package that aims to emulate a cohort on Twitter data. An article to present the package and a use case on diabetes have been submitted for publication.
 
 ## Files description
