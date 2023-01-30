@@ -21,7 +21,7 @@ ALTRUIST stands for virtu**AL** digi**T**al coho**R**t st**U**dy on Tw**I**tter 
 ### Notebook file
 **Notebook_example_diabetes.ipynb** : example of how the scripts can be used to perform the different steps of a cohort on diabetes.
 
-### text files
+### Text files
 - **keywords.txt** : all the disease-oriented keywords to collect tweets related to the disease.
 - **connection_data.txt** : connexion strings to mongodb, path to tlsfile (if needed) and key tokens to connect to the Twitter API.
 - **dict_concept_keywords.txt** : dict which match each concept to the list of relevant keywords (eg "Food" : "food, nutrition, diet").
