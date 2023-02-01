@@ -6,7 +6,7 @@
 ALTRUIST stands for virtu**AL** digi**T**al coho**R**t st**U**dy on Tw**I**tter u**S**ing py**T**hon. It is a Python package that aims to emulate a cohort on Twitter data. An article to present the package and a use case on diabetes have been submitted for publication.
 
 ## Files description
-### .py files
+### Scripts / .py files
 1. **Mongodb_init** : initialisation and connexion to mongodb using the connexion data in connection_data.txt file
 2. **data_collection** : Collection of tweets using keywords defined in keywords.txt
 3. **TrainPersonalClassifier** : Creation of a personal content classifier from a CSV file of tweets labeled according to the fact that they relate a personal experience with the user and their own disease. The use has to randomly extract tweets and manually label them to train the classifier. 
@@ -21,7 +21,7 @@ ALTRUIST stands for virtu**AL** digi**T**al coho**R**t st**U**dy on Tw**I**tter 
 ### Notebook file
 **Notebook_example_diabetes.ipynb** : example of how the scripts can be used to perform the different steps of a cohort on diabetes.
 
-### Text files
+### data / .txt files
 - **keywords.txt** : all the disease-oriented keywords to collect tweets related to the disease.
 - **connection_data.txt** : connexion strings to mongodb, path to tlsfile (if needed) and key tokens to connect to the Twitter API.
 - **dict_concept_keywords.txt** : dict which match each concept to the list of relevant keywords (eg "Food" : "food, nutrition, diet").
