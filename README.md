@@ -10,8 +10,8 @@ It is suggested to `git-clone` this repository and to modify the notebook file a
 
 ## Files description
 ### Scripts / .py files
-- 1. **Mongodb_init** : initialisation and connexion to mongodb using the connexion data in connection_data.txt file
-- 2. **data_collection** : Collection of tweets using keywords defined in keywords.txt
+- 1. **MongodbInit** : initialisation and connexion to mongodb using the connexion data in connection_data.txt file
+- 2. **DataCollection** : Collection of tweets using keywords defined in keywords.txt
 - 3. **TrainPersonalClassifier** : Creation of a personal content classifier from a CSV file of tweets labeled according to the fact that they relate a personal experience with the user and their own disease. The use has to randomly extract tweets and manually label them to train the classifier. 
 - 4. **ApplyClassifier** : Classifies collected tweets and returns personal ones
 - 5. **TimelineCollection** : checks if a user still exists using their id and returns list of existing ids. Then, allows to collect all their timelines.
