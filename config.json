@@ -1,0 +1,58 @@
+{
+  "mongo": {
+    "mongo_string": "XXXX",
+    "tls": true, 
+    "mongo_tlsCAFile": "YYYY",
+  },
+  "twitter": {
+    "twitter_consumer_key": "ZZZZ",
+    "twitter_consumer_secret": "AAAA",
+    "twitter_access_token": "BBBB",
+    "twitter_token_secret": "CCCC",
+    "keywords": ["diabetes","insulin","#t1d","t1d","t2d","#t2d","fingerprick","#dsma","dsma","gbdoc","#gbdoc","#insulin","#diabetes","diabetic","#diabetic"]
+  },
+  "concept_keywords": {
+    "Diabetes": "diabetes",
+    "Diabetes devices and supply": "pump, strips, monitor, lancet, pen, syringe, needle, swab, gauze, cgm, continuous glucose monitor, care touch, freestyle libre, dexcom, eversense, rite aid, truemetrix",
+    "Diagnosis": "diagnosis",
+    "Food": "food, nutrition, diet",
+    "Symptom": "symptom, sweating, fatigue, dizziness, dizzy, hungry, hypoglycaemia, hyperglycaemia, shaky, trembling, palpitations, irritated, tearful, moody, pale, thirts",
+    "Family": "family",
+    "Weight": "weight, overweight, obesity",
+    "Sleep": "sleep",
+    "Mental health": "depression, distress, burnout, anxiety, exhaustion, anxious, burden",
+    "Sport": "exercising",
+    "Politic": "politic",
+    "Death": "death",
+    "Affordability": "affordability, money, insulin access",
+    "Medication": "medication, insulin, metformin, humulin, novolin, novolog, flexpen, fiasp, precose, glyset",
+    "Glycemic control": "hba1c, mmol, blood glucose, blood sugar, glucose level, a1c, glucome monitoring",
+    "Healthcare system": "healthcare system, insurance, social security",
+    "Comorbidities" : "hypertension, asthma, cancer, dyslipidemia, hypothyroidism, dyperlipidemia",
+    "Complications" : "heart disease, osteoarthrosis, amputation, retinopathy, nerve damage, foot problem, heart attack, stroke, nephropathy, kidney problem, neuropathy, gum disease, thrush, urinary infection, erectile dysfunction, impotence, ketoacidosis, dka, heart failure, vascular disease, myocardial infarction, cardiovascular disease, ischemic heart disease",
+    "Diabetes Risk Factors" : "alcohol, nactivity, smoking, polycystic ovary syndrome, high blood pressure, cholesterol, drugs",
+    "Hypoglycemia" : "hypoglycemia, hypoglycaemia"
+  },
+  "thresholds": {
+    "Diabetes" : 0.33,
+    "Diabetes devices and supply" : 0.26,
+    "Diagnosis" : 0.40,
+    "Food" : 0.27,
+    "Symptom" : 0.38,
+    "Family" : 0.27,
+    "Weight" : 0.40,
+    "Sleep" : 0.36,
+    "Mental health" : 0.41,
+    "Sport" : 0.32,
+    "Politic" : 0.26,
+    "Death" : 0.40,
+    "Affordability" : 0.53,
+    "Medication" : 0.29,
+    "Glycemic control" : 0.38,
+    "Healthcare system" : 0.33,
+    "Comorbidities" : 0.37,
+    "Complications" : 0.30,
+    "Diabetes Risk Factors" : 0.44,
+    "Hypoglycemia" : 0.47
+  }
+}
